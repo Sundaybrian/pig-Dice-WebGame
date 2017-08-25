@@ -11,60 +11,65 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container fluid">
     <div class="jumbotron">
       <h1>Let's Pig Dice</h1>
-
-
     </div>
-    <div class="container">
-      <h2>Player Details</h2>
-      <form id="player1">
-        <div class="form-group">
-          <label for="player1">Player 1 Name</label>
-          <input type="text" class="form-control"="" id="player1" placeholder="EnterName">
-
-        </div>
-        <div class="form-group">
-          <label for="player2">Player 2 Name</label>
-          <input type="text" class="form-control"="" id="player2" placeholder="EnterName">
-
-        </div>
-        <button type="submit" class="btn btn-primary">Start Game</button>
 
 
 
-      </form>
+    <h2>Player Details</h2>
+    <form id="player1">
+      <div class="form-group">
+        <label for="player1">Player 1 Name</label>
+        <input type="text" class="form-control"="" id="player1" placeholder="EnterName">
 
-      <div class="row">
-        <h2>Gaming Area</h2>
-        <div class="col-md-6">
-          <h3>Player1 Console</h3>
-          <h4>Player Name:</h4>
-          <p>Dice Roll:</p>
-          <p>Total Score:</p>
+      </div>
+      <div class="form-group">
+        <label for="player2">Player 2 Name</label>
+        <input type="text" class="form-control"="" id="player2" placeholder="EnterName">
 
-
-        </div>
-        <div class="col-md-6">
-          <h3>Player2 Console</h3>
-          <h4>Player Name:</h4>
-          <p>Dice Roll:</p>
-          <p>Total Score:</p>
+      </div>
+      <button type="submit" class="btn btn-primary">Start Game</button>
 
 
 
+    </form>
 
-        </div>
+
+
+    <h2>Gaming Area</h2>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <h3>Player 1 Console</h3>
+        <h4>Name:</h4>
+        <p>Dice Roll:</p>
+        <p>Total Score:</p>
+        <button id="button-roll-1" class="btn  btn-success">ROLL</button>
+        <button id="button-hold-1" class="btn  btn-danger">HOLD</button>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Player 2 Console</h3>
+        <h4>Name:</h4>
+        <p>Dice Roll:</p>
+        <p>Total Score:</p>
+        <button id="button-roll-2" class="btn btn-success">ROLL</button>
+        <button id="button-hold-2" class="btn btn-danger">HOLD</button>
 
 
       </div>
 
-
-
     </div>
-
   </div>
+
+
+
+
+
+
 
 </body>
 
